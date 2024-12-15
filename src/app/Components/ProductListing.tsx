@@ -4,7 +4,7 @@ import { TbTruckDelivery } from 'react-icons/tb';
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import { LuSprout } from "react-icons/lu";
 import { MdOutlinePriceChange } from "react-icons/md";
-import Navbar from './Navbar';
+
 
 const ProductListing = () => {
   const features = [

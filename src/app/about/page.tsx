@@ -2,14 +2,14 @@
 
 import React from "react";
 import ProductListing from "@/app/Components/ProductListing"; // Importing the ProductListing component
-import Navbar from "../Components/Navbar";
-
+import Image from "next/image";
 
 const About = () => {
   return ( 
    <><div>
       {/* Product Listing Section */}
       {/* <ProductListing /> The product listing component is displayed here */}
+      
 
       {/* Hero Section */}
       <div className="w-full h-auto flex flex-col md:flex-row justify-between items-center px-4 md:px-16 py-8">
@@ -35,8 +35,9 @@ const About = () => {
           </button>
         </div>
         <div className="w-full md:w-2/5">
-          <img
-            src="/images/About main.png"
+          
+          <Image
+            src ="/images/About main.png"
             alt="About main"
             className="w-full transition-transform duration-300 ease-in-out hover:scale-105 hover:translate-y-1" />
         </div>
@@ -44,7 +45,7 @@ const About = () => {
 
       {/* Service Section */}
       <div className="flex flex-col md:flex-row w-full h-auto items-center px-4 py-16 space-y-8 md:space-y-0">
-        <img
+        <Image
           src="/images/About second.png"
           alt="Service"
           className="w-full md:w-2/5 transition-transform duration-300 ease-in-out hover:scale-105 hover:translate-y-1" />
@@ -91,7 +92,7 @@ const About = () => {
               key={index}
               className="bg-gray-200 w-72 h-auto rounded-sm px-6 py-8 text-center"
             >
-              <img
+              <Image
                 src={item.img}
                 alt={item.title}
                 className="mx-auto transition-transform duration-300 ease-in-out hover:scale-105 hover:translate-y-1" />
