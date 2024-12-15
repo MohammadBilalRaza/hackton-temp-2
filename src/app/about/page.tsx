@@ -8,7 +8,7 @@ const About = () => {
   return ( 
    <><div>
       {/* Product Listing Section */}
-      {/* <ProductListing /> The product listing component is displayed here */}
+      <ProductListing /> The product listing component is displayed here
       
 
       {/* Hero Section */}
