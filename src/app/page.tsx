@@ -6,7 +6,7 @@ import Ceramics from "./Components/Ceramics";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 
-import Product from "./Components/Products";
+import Product from "./Components/ProductListing";
 
 import Touch from "./Components/Touch";
 
