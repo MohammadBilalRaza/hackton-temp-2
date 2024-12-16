@@ -5,6 +5,7 @@ import { FaSearch, FaShoppingCart, FaUser } from 'react-icons/fa';
 import Link from "next/link";  // Correct import
 
 
+
 const Navbar: React.FC = () => {
   // State to toggle the visibility of the cart
   const [isCartVisible, setCartVisible] = useState(false);
